@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FROM</title>
+</head>
+<body>
+	<form style= "width:50% ; background-color: lavender;" >
+		<fieldset>
+			<legend>LOGIN FORM</legend>
+			<label for="name" name="name">NAME :</label>
+			<input type="text" name="name" placeholder="username" required max pattern="[A-Z ,a-z ,1-9] {5-10}" autocomplete="off">
+			<br><br>
+			<label for="email" name="email id">EMAIL ID :</label>
+			<input type="email" name="email id">
+			<br><br>
+			<label for="phone no" name="mobile no">Mobile NO :</label>
+			<input type="text" name="mobile no" placeholder="mobileno" required max pattern="[6-9]{1}[0-9]{2-10}">
+			<br><br>
+			<label for="pincode" name="Pincode">PINCODE :</label>
+			<input type="pincode" name="Pincode" required max pattern="[1-9]{6}">
+			<br><br>
+			<label for="date" name="date">Date :</label>
+			<input type="date" name="date">
+			<br><br>
+			<input type="checkbox" name="Agreement" style="border-color: red;"> I agree to sing this form if you not allow me in youbbb life
+		<br></br>
+		<button style="border-color: red;">Submit</button>
+		<button style="border-color: red;">Cancel</button>
+		</fieldset>
+	</form>
+
+</body>
+</html>

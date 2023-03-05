@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forms</title>
+  <style type="text/css">
+    #form{
+      color: white;
+      background-image: url("adi.jpg");
+      background-origin: border-box;
+      background-size: cover;
+      margin: 100px;
+      background-attachment: fixed;
+
+    }
+    .qz{
+
+      height: 500px;
+      width: 500px;
+      background-image: url("adi.jpg");
+    }
+    .qz{
+      margin: 400px;
+      
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <table>
+      <marquee>
+      <tr>
+    <td><a href="https://economictimes.indiatimes.com/" >HOME</a></td>
+    <td><a href="https://economictimes.indiatimes.com/prime">Exercise</a></td>
+    <td><a href="https://economictimes.indiatimes.com/markets">Video</a></td>
+    <td><a href="https://economictimes.indiatimes.com/defaultinterstitial.cms">Pulse</a></td>
+    <td><a href="https://economictimes.indiatimes.com/industry">Daiet</a></td>
+    <td><a href="https://economictimes.indiatimes.com/small-biz">Workout</a> </td>
+    <td><a href="https://economictimes.indiatimes.com/news/politics"> Entertainment</a> </td>
+    <td><a href="https://economictimes.indiatimes.com/news/politics"> Lifestyle</a> </td>
+    <td><a href="https://economictimes.indiatimes.com/defaultinterstitial.cms">Technology</a></td>
+    <td><a href="https://economictimes.indiatimes.com/tech">Videos</a></td>
+    <td><a href="https://economictimes.indiatimes.com/tech">Sports</a></td>
+      </tr>
+    </table>
+    <marquee>
+  </div>
+  <br><br>
+<div class="qz">
+<form id="form">
+  <fieldset  style="border-color: red";
+  style="border-radious:0px";>
+    <legend align="center" >REGESTRATION FORM</legend>
+    <label>First Name : </label>
+    <input type="text" name="First name" style="border-color: red;">
+    <br></br>
+    <label>Last Name : </label>
+    <input type="text" name="Last name" value="@gmail.com" style="border-color: red;">
+    <br></br>
+    <label>Email ID : </label>
+    <input type="text" name="Email Id" style="border-color: red;">
+    <br></br>
+    <label>Phone No : </label>
+    <input type="text" name="Phone No" style="border-color: red;">
+    <br></br>
+    <label> Password : </label>
+    <input type="Password" name="Password" style="border-color: red;">
+    <br></br>
+    <label> DOB  : </label>
+    <input type="date" name="DOB" style="border-color: red;">
+    <br></br>
+    <label> Gender : </label>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female" >Female
+    <input type="radio" name="gender" value="Other" >Other
+    <br><br>
+    Time<input type="time" name="time">
+    <br><br>
+    Date<input type="datetime-local" name="datetime">
+    <br></br>
+<label for="Blood_group" > Blood Group</label>
+<select>
+  <option>O+</option>
+  <option>A</option>
+  <option>B</option>
+  <option>AB+</option>
+</select>
+    <br><br>
+    <label typr="attachment">ATachment</label>
+    <input type="file" name="attach" multiple>
+    <br><br>
+    <input type="checkbox" name="Agreement" style="border-color: red;"> I agree to sing this form if you not allow me in youbbb life
+    <br></br>
+
+    <button style="border-color: red;">Submit</button>
+    <button style="border-color: red;">Cancel</button>
+  </fieldset>
+</form>
+</div>
+</body>
+</html>
